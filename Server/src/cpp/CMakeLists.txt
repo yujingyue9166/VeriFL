@@ -8,6 +8,7 @@ include_directories(../../../Client/app/src/main/cpp)
 
 link_directories(${CMAKE_SOURCE_DIR}/lib/openssl/linux_x86_64)
 
+set (CMAKE_CXX_STANDARD 11)
 add_library( # Sets the name of the library.
              native-server
 
